@@ -6,3 +6,7 @@ This game utilizes JS, HTML, CSS, and JQuery to deliver a game that is as immers
 game can get.
 
 Link to Web-Game: https://hamzahfar1203.github.io/M-HTML5TextBasedGame/
+
+READ:
+As of right now, starting the game will just send you to a death scene, this will change later
+when I add the rest of the story.
