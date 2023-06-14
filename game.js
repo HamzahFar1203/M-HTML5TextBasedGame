@@ -1,4 +1,4 @@
-$("body").hide().fadeIn(1e3);const storyText=document.querySelector(".textArea > p"),userInput=document.querySelector(".controls > input"),enterBtn=document.querySelector(".controls > button");var gameStates=[{scene:0,text:"Do you want to start your journey? 'Yes' to get started.",options:[{value:"yes",nextScene:1},{value:"no",nextScene:2}]},{scene:1,text:`<span style='text-align:center;'>*In the office*</span>
+$("body").hide().fadeIn(1e3);const storyText=document.querySelector(".textArea > p"),userInput=document.querySelector(".controls > input"),enterBtn=document.querySelector(".controls > button");var gameStates=[{scene:0,text:"Do you want to start your journey? 'Yes' to get started.",options:[{value:"yes",nextScene:1},]},{scene:1,text:`<span style='text-align:center;'>*In the office*</span>
                <br><br>
                <span class='side-char'>Mister Faruki:</span> Listen, you're the best guy I know for the job, and the only person I can count on that knows this stuff.. I'm willing to pay however much you ask for, just help me. 
                <br><br> 
