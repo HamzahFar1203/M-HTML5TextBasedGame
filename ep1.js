@@ -17,7 +17,7 @@ $("body").hide().fadeIn(1e3),$(".textArea").hide().slideDown(1e3);const storyTex
                <br><br>
                *You sigh*
                <br>
-               <span class='main-char'>YOU:</span> A lost cat huh..`,options:[{value:"",nextScene:9}]},{scene:9,text:"*You get in your lamborghini and drive off to the Faruki Mansion.*",options:[{value:"",nextScene:10}]},{scene:10,text:"[As you drive closer to the mansion, you see a large black gate and, large brick walls surrounding the mansion]",options:[{value:"",nextScene:11}]},{scene:11,text:`Location: Faruki Mansion
+               <span class='main-char'>YOU:</span> A lost cat huh..`,options:[{value:"",nextScene:9}]},{scene:9,text:"*You get in your lamborghini and drive off to the Faruki Mansion.*",options:[{value:"",nextScene:10}]},{scene:10,text:"[As you approach your destination, you see a majestic mansion with a tall red brick wall surrounding it and an equally tall black gate at the entrance.]",options:[{value:"",nextScene:11}]},{scene:11,text:`Location: Faruki Mansion
                <br>
                *You walk up to the front door of the mansion*
                <br>
