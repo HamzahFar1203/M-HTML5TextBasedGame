@@ -7,6 +7,4 @@ game can get.
 
 Link to Web-Game: https://hamzahfar1203.github.io/M-HTML5TextBasedGame/
 
-READ:
-As of right now, starting the game will just send you to a death scene, this will change later
-when the rest of the story is added.
+Episode One - Finished Developing
