@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>The Ménage Files > Episode One</title>
+        <title>The Ménage Files > Lockscreen</title>
         <meta name="description" content="A Text-based HTML5 Game. It's story-based.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="./img/TheMenageFilesIcon.png">
@@ -11,39 +11,37 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" href="./css/ep1.css">
+        <link rel="stylesheet" href="./css/lockscreen.css">
     </head>
     <body>
 
         <div class="main-body">
-
             <div class="container">
 
-                <div class="ep-name">
-                    <a href="/">
+                <div class="back-bar">
+                    <a href="./index.html">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 16 16">
                             <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8z"/>
                         </svg>
                     </a>
-                    <p class="scene-name">/40</p>
-                    <p>EP1: He Who Starts It</p>
+                    <p>Locksmith</p>
                 </div>
     
-                <div class="textArea">
-                    <p>...</p>
+                <div class="input-container">
+                    <input type="text" name="userInput" placeholder="Password required..">
+                    <button type="submit">CONTINUE</button>
                 </div>
     
-                <div class="controls">
-                    <input class="input" type="text" name="textfield" placeholder="Insert text here...">
-                    <button class="input button">Continue</button>
+                <!-- BGM -->
+                <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+                    <iframe width="0" height="0" src="https://www.youtube.com/embed/FrVS5A2WN5A?playlist=FrVS5A2WN5A&autoplay=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
                 </div>
-                
+    
             </div>
-
         </div>
         
         <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-        <script src="./datasrc/ep1story.js"></script>
-        <script src="./js/ep1.js"></script>
+        <script src="./datasrc/spd.js"></script>
+        <script src="./js/lsm.js"></script>
     </body>
 </html>

@@ -1,0 +1,95 @@
+html, body {
+    width: 100vw;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width:100vw;
+    height:100vh;
+    background-color: #09141b;
+    /* background-color: #17161d; Dark Purple NOT Black */
+}
+
+h1 {
+    color:white;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 1px 3px 1px #3282B8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:18rem;
+    padding:20px;
+    margin-top: 20px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    background-color: aliceblue;
+    box-shadow: 0px 10px 10px black;
+
+    transition: all 300ms;
+}
+
+.card > p {
+    font-size: 1.3em;
+    width:100%;
+    background-color: black;
+    margin: 0;
+}
+
+.card > p.status {
+    width:100%;
+    text-align: right;
+    font-family: 'Amatic SC', cursive;
+}
+
+.card:hover {
+    border-left: 10px solid #3282B8;
+}
+
+footer {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+
+/* 
+
+    ANIMATION
+
+*/
+
+.gradient-background {
+    background: linear-gradient(300deg, black, #279EFF, black);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+  
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+

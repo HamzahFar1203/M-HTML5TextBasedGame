@@ -1,0 +1,248 @@
+:root {
+    --cPalette-4: #22092C;
+    --cPalette-3: #872341;
+    --cPalette-2: #BE3144;
+    --cPalette-1: #F05941;
+
+    --dark-purple: #17161d;
+    --lightgray: #302e3b;
+}
+
+html, body {
+    width: 100vw;
+    max-height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: var(--cPalette-4); /* Dark Purple NOT Black */
+}
+
+::-webkit-scrollbar {
+    width:0.2em;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #23222c;
+    border-radius: 10px;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 70%;
+    margin-bottom: 2em;
+}
+
+
+/* 
+
+    EPISODE NAME BAR CSS
+
+*/
+
+.ep-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    border: none;
+    padding: 10px 0px;
+    margin: 0;
+
+    text-align: center;
+    background-color: var(--cPalette-2);
+    color:rgb(192, 190, 190);
+    font-size: 1.1em;
+}
+
+.ep-name > a {
+    padding-left: 1em;
+
+    text-decoration: none;
+    color: white;
+
+    transition: color 300ms;
+}
+
+.ep-name > a:hover {
+    color:rgb(192, 190, 190);
+}
+
+.ep-name > p {
+    padding: 0;
+    padding-right: 1em;
+    margin: 0;
+
+    color: white;
+}
+
+
+/* 
+
+    TEXTAREA CSS
+
+*/
+
+.textArea {
+    display: flex;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Bebas Neue', sans-serif;
+    color: White;
+    background-color: var(--cPalette-3);
+}
+
+.textArea p {
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 1.6em;
+
+    padding: 0px 1em;
+
+    transition: all 300ms;
+}
+
+
+/* 
+
+    INPUT CONTAINER CSS
+
+*/
+
+.input-container {
+    display: flex;
+
+    padding: 1em 1em;
+
+    background-color: var(--cPalette-2);
+}
+
+.input-container > input {
+    width: 30%;
+    padding: 10px 10px;
+
+    color: white;
+    background-color: #23222c57;
+    border: none;
+    font-size: 1rem;
+}
+
+.input-container > input:hover {
+    cursor: not-allowed;
+}
+
+.input-container > button {
+    width: 70%;
+
+    background-color: white;
+    border: none;
+
+    transition: all 300ms;
+}
+
+.input-container > button:hover {
+    cursor: pointer;
+    background-color: rgb(211, 211, 211);
+}
+
+
+/* 
+
+    OPTION BUTTONS CSS
+
+*/
+
+.option-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+    margin-top: 1em;
+}
+
+.option-button {
+    padding: 1em;
+
+    color: white;
+    background-color: var(--cPalette-2);
+
+    transition: all 300ms;
+}
+
+.option-button > p {
+    margin: 0;
+
+    font-size: 1.1em;
+    color: white;
+}
+
+.option-button:hover {
+    cursor: pointer;
+    background-color: var(--cPalette-1);
+}
+
+
+/* 
+
+    Query Selectors
+
+*/
+@media (max-width: 1000px) {
+    .container {
+        width: 90%;
+    }
+    .input-container > input {
+        width: 50%;
+    }
+    
+    .input-container > button {
+        width: 50%;
+    }
+}
+
+
+/* 
+
+    EXTRA STYLES
+
+*/
+
+.dark-mode-bg {
+    background-color: #191b29;
+}
+
+.dark-mode-1 {
+    background-color: #424769;
+}
+
+.dark-mode-2 {
+    background-color: #2D3250;
+}
+
+.dark-mode-btns {
+    background-color: #424769;
+}
+
+.dark-mode-btns:hover {
+    background-color: #2D3250;
+}

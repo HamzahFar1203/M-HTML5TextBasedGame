@@ -1,0 +1,43 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    background-color: #061c2e;
+
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > p:first-child {
+    margin-top: 2em;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+a {
+    align-self: flex-start;
+
+    margin-left: 1em;
+    margin-top: 1em;
+
+    text-decoration: none;
+    color: white;
+
+    transition: all 500ms;
+}
+
+a:hover {
+    color: #279EFF;
+}
