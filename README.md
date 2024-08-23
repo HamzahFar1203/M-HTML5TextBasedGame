@@ -5,6 +5,10 @@ that I'm genuinely excited to work on.
 This game utilizes JS, HTML, CSS, and JQuery to deliver a game that is as immersive as a text-based
 game can get.
 
-Link to Web-Game: https://hamzahfar1203.github.io/M-HTML5TextBasedGame/
+The source code is now outdated, the link is different as well.
+
+Link to Web-Game: https://the-menage-files.netlify.app/
 
 Episode One - Finished Developing
+Episode Two - Finished Developing
+Episode Three - In Development
